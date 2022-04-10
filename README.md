@@ -98,3 +98,10 @@ You are required to submit the following for review:
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
+LINK TO GITHUB WEBPAGE: https://dcast0607.github.io/Simple-Password-Generator/
+LINK TO GITHUB REPO:https://github.com/dcast0607/Simple-Password-Generator
+
+GIF OF WORKING WEBPAGE: 
+![](Password Generator.gif)
