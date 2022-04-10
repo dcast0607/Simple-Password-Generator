@@ -104,4 +104,6 @@ LINK TO GITHUB WEBPAGE: https://dcast0607.github.io/Simple-Password-Generator/
 LINK TO GITHUB REPO:https://github.com/dcast0607/Simple-Password-Generator
 
 GIF OF WORKING WEBPAGE: 
-![](Password Generator.gif)
+![Alt Text](./Assets/Password%20Generator.gif?raw=true "Webpage GIF") <br />
+
+
