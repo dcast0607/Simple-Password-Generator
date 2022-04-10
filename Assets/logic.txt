@@ -52,7 +52,23 @@ Working out the logic to actually create the random password.
 /*
 Game Plan: Revision 5
 Refactoring
-- Clean up logic
-- Clean up code
-- Clean up random use cases that may be issues
+- Comment all of the code ✅
+- Clean up logic ✅
+- Clean up code ✅
+- Clean up random use cases that may be issues ✅
+
+Biggest hurdle here is handling use cases in which the user selects an array than only
+contains 10 values for example, but wants a password with 120 characters. My current code
+will iterate through the array and create a new "password" array with 10 characters, the
+rest of the 110 characters are iterated as null values.
+
+Issue with logic here, returning empty/null values at times. I think the issue is that
+we are trying to create x amount of characters, however, the original array "finalCharacterCodes"
+is limited by the amount of characters in the array that the user has created based off their selections.
+When testing, if you enter passwordLengthNumber of 120 characters, the max size we can create is a 9
+digit password as that's the max number of characters defined 
+
+  Added a janky solution that checks if the passwordLengthNumber is bigger than the available
+  concated array that holds all of our character codes. If the passwordLengthNumber is bigger then 
+  I increase the size of our array to have enough characters. 
 */
